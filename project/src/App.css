@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.grid {
+  background-color: #3a3a3a;
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  gap: 1px;
+  margin: 10px auto;
+  width: fit-content;
+  
+}
+
+.cell {
+  background-color: #ffcc00;
+  color: black;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: 1px solid white;
+  position: relative; 
+}
+
+.active {
+  background-color:deeppink;
+  font-weight: bold;
+}
+
+.keySnake {
+  background-color: red ;
+  color: black;
+  font-weight: bold;
+}
+
+.valueSnake {
+  color: black;
+  font-weight: bold;
+}
+
+.keyladder {
+  background-color: green;
+  color: black;
+  font-weight: bold;
+}
+
+.valueladder {
+
+  color: black;
+  font-weight: bold;
+}
+
+.cell:first-child {
+  background-color: purple;
+  color: white;
+}
+
+p{
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.cell:last-child {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
